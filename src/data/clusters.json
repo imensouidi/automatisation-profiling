@@ -1,0 +1,62 @@
+[
+  {
+    "cluster": 0,
+    "Club": "tunis",
+    "Genre": "homme",
+    "Age": "entre 18 24 an",
+    "Zone g\u00e9ographique": "tunis",
+    "Occupation": "lyc\u00e9e",
+    "Sport": "football",
+    "Film": "action",
+    "Interactions en ligne": "facebook",
+    "Revenu": "plus der 5000 dtn mois",
+    "Permis de conduire": "false",
+    "Motoris\u00e9": "false",
+    "Number of Users": 1389
+  },
+  {
+    "cluster": 1,
+    "Club": "tunis",
+    "Genre": "homme",
+    "Age": "entre 18 24 an",
+    "Zone g\u00e9ographique": "tunis",
+    "Occupation": "lyc\u00e9e",
+    "Sport": "handball",
+    "Film": "action",
+    "Interactions en ligne": "facebook",
+    "Revenu": "plus der 5000 dtn mois",
+    "Permis de conduire": "false",
+    "Motoris\u00e9": "false",
+    "Number of Users": 1149
+  },
+  {
+    "cluster": 2,
+    "Club": "tunis",
+    "Genre": "homme",
+    "Age": "entre 18 24 an",
+    "Zone g\u00e9ographique": "tunis",
+    "Occupation": "lyc\u00e9e",
+    "Sport": "handball",
+    "Film": "action",
+    "Interactions en ligne": "instagram",
+    "Revenu": "plus der 5000 dtn mois",
+    "Permis de conduire": "false",
+    "Motoris\u00e9": "false",
+    "Number of Users": 329
+  },
+  {
+    "cluster": 3,
+    "Club": "tunis",
+    "Genre": "homme",
+    "Age": "entre 18 24 an",
+    "Zone g\u00e9ographique": "tunis",
+    "Occupation": "lyc\u00e9e",
+    "Sport": "football",
+    "Film": "action",
+    "Interactions en ligne": "instagram",
+    "Revenu": "plus der 5000 dtn mois",
+    "Permis de conduire": "false",
+    "Motoris\u00e9": "false",
+    "Number of Users": 253
+  }
+]
