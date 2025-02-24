@@ -1,70 +1,96 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Automatisation du Profiling des Clients (Flask + React)
 
-## Available Scripts
+Ce projet implémente un système intelligent d'automatisation du profiling des clients en exploitant l’apprentissage automatique et le NLP. L'objectif est de regrouper les profils similaires et d’améliorer la gestion des interactions avec les utilisateurs.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🏗️ Architecture du Projet
+Le projet est structuré en **backend Flask** et **frontend React** :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📂 **Backend (Flask)**
+- API RESTful en Python
+- Analyse des données avec Machine Learning (Scikit-learn, Pandas)
+- Base de données MongoDB
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎨 **Frontend (React)**
+- Interface utilisateur en React.js
+- Affichage des résultats via des tableaux et graphiques interactifs
+- Communication avec l'API Flask
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Fonctionnalités
+✅ **Profiling automatique** basé sur l'apprentissage automatique  
+✅ **Analyse et segmentation des utilisateurs** avec clustering  
+✅ **Stockage des données** avec MongoDB  
+✅ **Interface utilisateur moderne** en React.js  
+✅ **Visualisation des résultats** sous forme de tableaux et graphiques  
+✅ **Documentation complète avec diagrammes UML et explications techniques**  
+✅ **Vidéo de démonstration de l’application**  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Installation et Lancement
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1️⃣ Prérequis
+- **Python 3** & `pip`
+- **Node.js** & `npm`
+- **MongoDB** (ou un autre SGBD)
 
-### `npm run eject`
+### 2️⃣ Cloner le projet
+```bash
+git clone https://github.com/votre-utilisateur/profiling-automation.git
+cd profiling-automation
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3️⃣ Installation du Backend Flask
+```bash
+cd backend
+python3 -m venv venv  # Création d'un environnement virtuel
+source venv/bin/activate  # (Mac/Linux) Activation de l'environnement virtuel
+venv\Scripts\activate  # (Windows)
+pip install -r requirements.txt
+python app.py  # Lancement du backend
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4️⃣ Installation du Frontend React
+```bash
+cd ../frontend
+npm install
+npm start  # Démarrer le serveur React
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+L’application sera accessible à `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Utilisées
+### 🔧 Backend (Flask)
+- Python 3
+- Flask
+- MongoDB
+- Pandas, Scikit-learn (Machine Learning)
+- JWT pour l’authentification
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🎨 Frontend (React)
+- React.js
+- Axios (communication avec l’API)
+- Tailwind CSS (UI)
+- Recharts (graphiques)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📑 Documentation et Démonstration
+📄 **Rapport Technique**  
+Le rapport détaillé est disponible à la racine du projet sous le nom [`Rapport.pdf`](Rapport.pdf). Il contient :
+- 📌 L'architecture du projet
+- 🎯 Les objectifs et la méthodologie utilisée (CRISP-DM, Machine Learning)
+- 🖥️ Les diagrammes UML (cas d'utilisation, séquences, classes)
+- 📊 Les résultats et analyses du modèle d'apprentissage automatique
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🎥 **Vidéo de Démonstration**  
+Une démonstration vidéo de l'application est disponible à la racine du projet sous le nom [`Démonstration.mp4`](Démonstration.mp4). Vous pouvez la visionner directement en cliquant sur ce lien ou en téléchargeant le fichier.
